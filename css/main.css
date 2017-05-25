@@ -28,9 +28,6 @@ body {
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased; }
 
-* {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
 
 a {
   color: #4d4d4d; }
@@ -253,7 +250,9 @@ section.header {
     font-family: 'Montserrat Regular';
     font-size: 18px;
     background: transparent;
-    outline: none; }
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease; }
     section.header button.btn-contact:hover {
       background-color: #f9f9f9; }
 
