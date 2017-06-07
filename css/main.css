@@ -120,7 +120,7 @@ a:visited {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
+  z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -137,7 +137,7 @@ a:visited {
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
   .menu_active {
-    right: 0; }
+    right: 0; z-index: 2; }
   .menu ul {
     text-align: center;
     padding: 0;
@@ -162,7 +162,7 @@ a:visited {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 100; }
+    z-index: 2; }
     .menu-link span, .menu-link span:before, .menu-link span:after {
       display: block;
       height: 4px;
